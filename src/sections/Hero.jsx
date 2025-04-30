@@ -1,7 +1,7 @@
 import React from "react";
 import { words } from "../constants/index.js";
 import Button from "../components/Button.jsx";
-
+import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 const Hero = () => {
   return (
     <section
@@ -51,10 +51,19 @@ const Hero = () => {
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               Hi, I’m Casey, a software developer with a passion for code.
             </p>
-            <Button />
+            <Button
+              className="md:w-80 md:h-16 w-60 h-12"
+              id="button"
+              text="See My Work"
+            />
           </div>
         </header>
         {/* Right: 3d model*/}
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
     </section>
   );
