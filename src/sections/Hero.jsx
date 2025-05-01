@@ -1,8 +1,28 @@
-import React from "react";
+import React, { use } from "react";
 import { words } from "../constants/index.js";
 import Button from "../components/Button.jsx";
 import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+// gsap animation
 const Hero = () => {
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      {
+        y: 50,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        stagger: 0.2,
+        duration: 1,
+        ease: "power2.inOut",
+      }
+    );
+  });
   return (
     <section
       id="hero"
@@ -14,7 +34,7 @@ const Hero = () => {
         <img src="/images/bg.png" alt="background" />
       </div>
 
-      <div>
+      <div className="hero-layout">
         {/* Left:Hero-layout*/}
         <header
           className="flex flex-col justify-center md:w-full
