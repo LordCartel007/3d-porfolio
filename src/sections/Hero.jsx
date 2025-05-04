@@ -48,9 +48,9 @@ const Hero = () => {
                 <span className="slide">
                   <span className="wrapper">
                     {/* Looping over the array to do cool animation*/}
-                    {words.map((word) => (
+                    {words.map((word, index) => (
                       <span
-                        key={word.text}
+                        key={`${word.text}-${index}`}
                         className="flex items-center
                     md:gap-3 gap-1 pb-2 "
                       >
