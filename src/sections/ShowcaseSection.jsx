@@ -11,7 +11,7 @@ const ShowcaseSection = () => {
   const project2Ref = useRef(null);
   const project3Ref = useRef(null);
 
-  //applying gsap animation
+  // applying gsap animation
   useGSAP(() => {
     const projects = [
       project1Ref.current,

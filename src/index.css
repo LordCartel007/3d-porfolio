@@ -82,6 +82,9 @@ section {
 
   .hero-layout {
     @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center;
+    @media (max-width: 769px) {
+      @apply h-[30vh];
+    }
   }
 
   .hero-text {
@@ -469,4 +472,10 @@ section {
 
 .card:hover::before {
   opacity: 1;
+}
+
+.contactcomputer {
+  @media (max-width: 769px) {
+    @apply min-h-[1vh];
+  }
 }

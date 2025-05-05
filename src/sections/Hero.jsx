@@ -5,9 +5,12 @@ import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
+import { useMediaQuery } from "react-responsive";
 
 // gsap animation
 const Hero = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
   useGSAP(() => {
     gsap.fromTo(
       ".hero-text h1",
@@ -80,11 +83,13 @@ const Hero = () => {
           </div>
         </header>
         {/* Right: 3d model*/}
-        <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
-          </div>
-        </figure>
+        {!isMobile && (
+          <figure>
+            <div className="hero-3d-layout ">
+              <HeroExperience />
+            </div>
+          </figure>
+        )}
       </div>
       <AnimatedCounter />
     </section>

@@ -11,18 +11,22 @@ const HeroExperience = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   // using canvas to create a cool animation
   return (
-    <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
+    <Canvas dpr={[1, 1.5]} camera={{ position: [0, 0, 15], fov: 45 }}>
+      {/* reducing pixel resolution dpr={}*/}
       {/*allows us to control object */}
-      <OrbitControls
-        enablePan={false}
-        enableZoom={!isTablet}
-        maxDistance={20}
-        minDistance={5}
-        minPolarAngle={Math.PI / 5}
-        maxPolarAngle={Math.PI / 2}
-      />
+      {/* disabling orbit controls on mobile and tablet devices*/}
+      {!isMobile && (
+        <OrbitControls
+          enablePan={false}
+          enableZoom={!isTablet}
+          maxDistance={20}
+          minDistance={5}
+          minPolarAngle={Math.PI / 5}
+          maxPolarAngle={Math.PI / 2}
+        />
+      )}
       <HeroLights />
-      <Particles count={100} />
+      <Particles count={15} />
       {/*use the position to adjust the position*/}
       <group
         scale={isMobile ? 0.7 : 1}
