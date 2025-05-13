@@ -26,12 +26,13 @@ const HeroExperience = () => {
         />
       )}
       <HeroLights />
-      <Particles count={15} />
+      {/* <Particles count={15} /> */}
       {/*use the position to adjust the position*/}
       <group
         scale={isMobile ? 0.7 : 1}
-        position={[0, -3.5, 0]}
-        rotation={[0, -Math.PI / 4, 0]}
+        // position={[0, -3.5, 0]}
+        position={[0, -3.5, 1]}
+        rotation={[0, -Math.PI / 3, 0]}
       >
         <Room />
       </group>
