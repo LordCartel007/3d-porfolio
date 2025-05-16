@@ -8,10 +8,12 @@ import TechStack from "./sections/TechStack.jsx";
 import Testimonials from "./sections/Testimonials.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+
 const App = () => {
   return (
     <>
       <NarBar />
+
       <Hero />
       <ShowcaseSection />
       <LogoSection />

@@ -33,7 +33,14 @@ const NavBar = () => {
             ))}
           </ul>
         </nav>
-
+        <a
+          href="https://all-projects.caseydaniel.online/"
+          className="contact-btn group"
+        >
+          <div className="inner">
+            <span>All Projects</span>
+          </div>
+        </a>
         <a href="#contact" className="contact-btn group">
           <div className="inner">
             <span>Contact me</span>
