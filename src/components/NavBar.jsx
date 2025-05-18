@@ -37,6 +37,12 @@ const NavBar = () => {
                 <span>All Projects</span>
               </div>
             </a>
+
+            <a href="https://github.com/LordCartel007" className="">
+              <div className="inner">
+                <span>GitHub Profile</span>
+              </div>
+            </a>
           </ul>
         </nav>
 

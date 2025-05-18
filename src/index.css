@@ -479,3 +479,29 @@ section {
     @apply min-h-[1vh];
   }
 }
+
+.allprojects {
+  font-weight: bolder;
+
+  margin: 0;
+  color: #ffc107;
+  text-decoration: none;
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+  flex: 1; /* Makes title fill available space */
+  justify-self: center;
+
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+  }
+
+  @media screen and (min-width: 767px) {
+    font-size: 1.5rem;
+  }
+
+  /* nest hub tv screen */
+  @media screen and (min-width: 1023px) {
+    font-size: 2rem;
+  }
+}
