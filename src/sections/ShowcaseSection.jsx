@@ -50,8 +50,8 @@ const ShowcaseSection = () => {
     <>
       <section id="work" ref={sectionRef} className="app-showcase">
         <div className="w-full">
-          <h1 className="text-center text-white-50 md:text-xl mb-3 ">
-            Click to View Projects
+          <h1 className="clicktoview text-center text-white-50 md:text-xl mb-3 ">
+            Click Each Project To View
           </h1>
           <div className="showcaselayout">
             {/* Left: Showcase layout */}

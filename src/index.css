@@ -505,3 +505,14 @@ section {
     font-size: 2rem;
   }
 }
+
+.clicktoview {
+  font-weight: bolder;
+
+  margin: 0;
+  color: #ffc107;
+  text-decoration: none;
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}

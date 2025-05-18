@@ -34,13 +34,22 @@ const NavBar = () => {
 
             <a href="https://all-projects.caseydaniel.online/" className="">
               <div className="inner">
-                <span>All Projects</span>
+                <span className="">All Projects</span>
               </div>
             </a>
 
             <a href="https://github.com/LordCartel007" className="">
               <div className="inner">
                 <span>GitHub Profile</span>
+              </div>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/casey-daniel-33b771341/"
+              className=""
+            >
+              <div className="inner">
+                <span>LinkedIn Profile</span>
               </div>
             </a>
           </ul>
