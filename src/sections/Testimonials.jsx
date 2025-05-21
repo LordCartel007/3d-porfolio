@@ -21,8 +21,8 @@ const Testimonials = () => {
             //passing props to the GlowCard component
             <GlowCard card={{ review }}>
               <div className="flex items-center gap-3">
-                <div>
-                  <img src={imgPath} alt={name} />
+                <div className="testimonial-div">
+                  <img className="testimonial-image" src={imgPath} alt={name} />
                 </div>
                 <div>
                   <p className="font-bold">{name}</p>

@@ -38,12 +38,12 @@ export const counterItems = [
     label: "Years of Experience",
   },
   {
-    value: "50",
+    value: "20",
     suffix: "+",
     label: "Satisfied Clients",
   },
   {
-    value: "62",
+    value: "40",
     suffix: "+",
     label: "Completed Projects",
   },
@@ -111,41 +111,40 @@ export const abilities = [
 export const expCards = [
   {
     review:
-      "Casey brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Casey brought creativity and technical expertise to the team, significantly improving our frontend and backend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Fullstack Developer at Ikeshalom Import company",
+    date: "May 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
+      "Developed and designed the payment system and real time messaging.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Hosted the site with private domain and did seo.",
     ],
   },
   {
     review:
-      "Casey’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Casey’s contributions to the web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Freelance Developer .",
+    date: "April 2023 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Debug clients application.",
+      "Built React apps for clients.",
+      "Configure Domains for clients",
     ],
   },
   {
-    review:
-      "Casey’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Built a cloth ecommerce store and a talking ai chat bot",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: " Founder of NikkyFashion and Cartel ai (startup)",
+    date: "July 2024- Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built the payment system with flutter wave and added real time messaging with socket.io",
+      "Built a talking ai chat bot using gemini api, added voice recognition to  speak with bot.",
+      "Configured the domain and hosted the site.",
     ],
   },
 ];
@@ -158,7 +157,7 @@ export const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Next.Js Developer",
+    name: "Javascript Developer",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
@@ -170,13 +169,13 @@ export const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Three.js Developer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Typescript Developer",
+    name: "Nextjs Developer",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -208,46 +207,46 @@ export const techStackImgs = [
 
 export const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "chris",
+    mentions: "@chris-chukwuebuka (linkedin)",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "I can’t say enough good things about Casey. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+    imgPath: "/images/chris.jfif",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "ike",
+    mentions: "@ikeshalom (linkedin)",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Working with Casey was a fantastic experience. He Built a reponsive ecommerce website with swift payment system and real time messaging. He was always available to answer questions and provide updates. I highly recommend him for any web development project.",
+    imgPath: "/images/ike-shalom.jfif",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Sunday",
+    mentions: "@sunday-izuoba (linkedin)",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Collaborating with Casey was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Casey's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Casey is the ideal partner.",
+    imgPath: "/images/sunday-izuoba.jfif",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "spencer",
+    mentions: "@spencer-nweke (linkedin)",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Casey was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+    imgPath: "/images/spencer.jfif",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Ehueriken ",
+    mentions: "@Ehueriken-Samuel (linkedin)",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "Casey’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+    imgPath: "/images/Ehueriken-Samuel.jfif",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Lawrence",
+    mentions: "@Lawrence-Ugo (linkedin)",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Casey was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+    imgPath: "/images/LAWRENCE-UGO.jfif",
   },
 ];
 

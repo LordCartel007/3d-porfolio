@@ -118,6 +118,7 @@ section {
 
     .inner {
       @apply mx-auto flex items-center justify-between;
+      gap: 20px;
     }
 
     .logo {
@@ -515,4 +516,17 @@ section {
   font-family: "Rye", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.testimonial-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial-div {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
 }

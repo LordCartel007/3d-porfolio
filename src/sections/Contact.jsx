@@ -49,6 +49,9 @@ const Contact = () => {
           title="Get in Touch – Let’s Connect"
           sub="💬 Have questions or ideas? Let’s talk! 🚀"
         />
+        <h1 className="clicktoview text-center  md:text-xl mt-3 pt-4">
+          Email: Kccee007@gmail.com
+        </h1>
         <div className="grid-12-cols mt-16">
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
