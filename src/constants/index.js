@@ -127,12 +127,12 @@ export const expCards = [
       "Casey’s contributions to the web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Freelance Developer .",
-    date: "April 2023 - Present",
+    title: " Internship F.5 Labs United Kingdom (Remote) ",
+    date: "April 2023 - June 2023",
     responsibilities: [
-      "Debug clients application.",
-      "Built React apps for clients.",
-      "Configure Domains for clients",
+      "Collaborated with a team of 5 developers using Jira for sprint planning and task",
+      "Integrated third-party APIs including Stripe for payments and AWS S3 for file storage",
+      "Led the development of a customer portal using React.js, improving user engagement by 40%",
     ],
   },
   {
