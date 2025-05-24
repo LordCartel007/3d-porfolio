@@ -52,6 +52,22 @@ const Contact = () => {
         <h1 className="clicktoview text-center  md:text-xl mt-3 pt-4">
           Email: Kccee007@gmail.com
         </h1>
+        <a
+          href="https://github.com/LordCartel007"
+          className="clicktoview text-center  md:text-xl mt-3 pt-4 "
+        >
+          <div className="inner">
+            <span>GitHub Profile</span>
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/casey-daniel-33b771341/"
+          className="clicktoview text-center  md:text-xl mt-3 pt-4"
+        >
+          <div className="inner">
+            <span>LinkedIn Profile</span>
+          </div>
+        </a>
         <div className="grid-12-cols mt-16">
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
